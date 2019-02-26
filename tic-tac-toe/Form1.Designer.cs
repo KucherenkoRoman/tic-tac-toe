@@ -48,11 +48,11 @@
             // 
             // RestartButton
             // 
-            this.RestartButton.BackColor = System.Drawing.Color.Lime;
+            this.RestartButton.BackColor = System.Drawing.Color.White;
             this.RestartButton.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.RestartButton.Location = new System.Drawing.Point(12, 12);
+            this.RestartButton.Location = new System.Drawing.Point(271, 12);
             this.RestartButton.Name = "RestartButton";
-            this.RestartButton.Size = new System.Drawing.Size(145, 82);
+            this.RestartButton.Size = new System.Drawing.Size(80, 40);
             this.RestartButton.TabIndex = 0;
             this.RestartButton.Text = "Restart";
             this.RestartButton.UseVisualStyleBackColor = false;
@@ -60,12 +60,12 @@
             // 
             // ExitButton
             // 
-            this.ExitButton.BackColor = System.Drawing.Color.OrangeRed;
+            this.ExitButton.BackColor = System.Drawing.Color.White;
             this.ExitButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ExitButton.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.ExitButton.Location = new System.Drawing.Point(466, 12);
+            this.ExitButton.Location = new System.Drawing.Point(515, 12);
             this.ExitButton.Name = "ExitButton";
-            this.ExitButton.Size = new System.Drawing.Size(145, 82);
+            this.ExitButton.Size = new System.Drawing.Size(96, 40);
             this.ExitButton.TabIndex = 1;
             this.ExitButton.Text = "Exit";
             this.ExitButton.UseVisualStyleBackColor = false;
@@ -199,11 +199,11 @@
             // 
             // StartNewGameButton
             // 
-            this.StartNewGameButton.BackColor = System.Drawing.Color.Red;
+            this.StartNewGameButton.BackColor = System.Drawing.Color.White;
             this.StartNewGameButton.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.StartNewGameButton.Location = new System.Drawing.Point(12, 129);
+            this.StartNewGameButton.Location = new System.Drawing.Point(515, 63);
             this.StartNewGameButton.Name = "StartNewGameButton";
-            this.StartNewGameButton.Size = new System.Drawing.Size(145, 82);
+            this.StartNewGameButton.Size = new System.Drawing.Size(96, 40);
             this.StartNewGameButton.TabIndex = 15;
             this.StartNewGameButton.Text = "Start new game";
             this.StartNewGameButton.UseVisualStyleBackColor = false;
@@ -213,7 +213,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Goldenrod;
+            this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(623, 473);
             this.Controls.Add(this.StartNewGameButton);
             this.Controls.Add(this.Player2Score);

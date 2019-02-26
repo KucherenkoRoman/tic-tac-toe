@@ -37,7 +37,7 @@ namespace tic_tac_toe
 
         public void ClickEvent(int fieldNumber)
         {
-            if (IsGameOver || numberOfFieldsFilled == 9)
+            if (IsGameOver)
             {
                 Restart();
             }
@@ -53,6 +53,11 @@ namespace tic_tac_toe
                         if (turn == 1) playerTurn.Text = "First player's move";
                         else playerTurn.Text = "Second player's move";
                         numberOfFieldsFilled++;
+                        if (numberOfFieldsFilled == 9)
+                        {
+                            playerTurn.Text = "Draw!";
+                            IsGameOver = true;
+                        }
                         return;
                     }
                     else
@@ -80,8 +85,6 @@ namespace tic_tac_toe
                 }
                 else return;
             }
-            
-
         }
 
         public void FieldClick(int fieldNumber)
