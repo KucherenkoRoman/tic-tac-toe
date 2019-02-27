@@ -50,9 +50,9 @@
             // 
             this.RestartButton.BackColor = System.Drawing.Color.White;
             this.RestartButton.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.RestartButton.Location = new System.Drawing.Point(271, 12);
+            this.RestartButton.Location = new System.Drawing.Point(44, 46);
             this.RestartButton.Name = "RestartButton";
-            this.RestartButton.Size = new System.Drawing.Size(80, 40);
+            this.RestartButton.Size = new System.Drawing.Size(90, 30);
             this.RestartButton.TabIndex = 0;
             this.RestartButton.Text = "Restart";
             this.RestartButton.UseVisualStyleBackColor = false;
@@ -63,9 +63,9 @@
             this.ExitButton.BackColor = System.Drawing.Color.White;
             this.ExitButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ExitButton.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.ExitButton.Location = new System.Drawing.Point(515, 12);
+            this.ExitButton.Location = new System.Drawing.Point(44, 10);
             this.ExitButton.Name = "ExitButton";
-            this.ExitButton.Size = new System.Drawing.Size(96, 40);
+            this.ExitButton.Size = new System.Drawing.Size(195, 30);
             this.ExitButton.TabIndex = 1;
             this.ExitButton.Text = "Exit";
             this.ExitButton.UseVisualStyleBackColor = false;
@@ -74,7 +74,7 @@
             // field0
             // 
             this.field0.BackColor = System.Drawing.Color.White;
-            this.field0.Location = new System.Drawing.Point(185, 128);
+            this.field0.Location = new System.Drawing.Point(12, 136);
             this.field0.Name = "field0";
             this.field0.Size = new System.Drawing.Size(80, 80);
             this.field0.TabIndex = 2;
@@ -84,7 +84,7 @@
             // field1
             // 
             this.field1.BackColor = System.Drawing.Color.White;
-            this.field1.Location = new System.Drawing.Point(271, 128);
+            this.field1.Location = new System.Drawing.Point(98, 136);
             this.field1.Name = "field1";
             this.field1.Size = new System.Drawing.Size(80, 80);
             this.field1.TabIndex = 3;
@@ -94,7 +94,7 @@
             // field2
             // 
             this.field2.BackColor = System.Drawing.Color.White;
-            this.field2.Location = new System.Drawing.Point(357, 129);
+            this.field2.Location = new System.Drawing.Point(184, 137);
             this.field2.Name = "field2";
             this.field2.Size = new System.Drawing.Size(80, 80);
             this.field2.TabIndex = 4;
@@ -104,7 +104,7 @@
             // field3
             // 
             this.field3.BackColor = System.Drawing.Color.White;
-            this.field3.Location = new System.Drawing.Point(185, 214);
+            this.field3.Location = new System.Drawing.Point(12, 222);
             this.field3.Name = "field3";
             this.field3.Size = new System.Drawing.Size(80, 80);
             this.field3.TabIndex = 5;
@@ -114,7 +114,7 @@
             // field4
             // 
             this.field4.BackColor = System.Drawing.Color.White;
-            this.field4.Location = new System.Drawing.Point(271, 214);
+            this.field4.Location = new System.Drawing.Point(98, 222);
             this.field4.Name = "field4";
             this.field4.Size = new System.Drawing.Size(80, 80);
             this.field4.TabIndex = 6;
@@ -124,7 +124,7 @@
             // field5
             // 
             this.field5.BackColor = System.Drawing.Color.White;
-            this.field5.Location = new System.Drawing.Point(357, 215);
+            this.field5.Location = new System.Drawing.Point(184, 223);
             this.field5.Name = "field5";
             this.field5.Size = new System.Drawing.Size(80, 80);
             this.field5.TabIndex = 7;
@@ -134,7 +134,7 @@
             // field6
             // 
             this.field6.BackColor = System.Drawing.Color.White;
-            this.field6.Location = new System.Drawing.Point(185, 300);
+            this.field6.Location = new System.Drawing.Point(12, 308);
             this.field6.Name = "field6";
             this.field6.Size = new System.Drawing.Size(80, 80);
             this.field6.TabIndex = 8;
@@ -144,7 +144,7 @@
             // field7
             // 
             this.field7.BackColor = System.Drawing.Color.White;
-            this.field7.Location = new System.Drawing.Point(271, 300);
+            this.field7.Location = new System.Drawing.Point(98, 308);
             this.field7.Name = "field7";
             this.field7.Size = new System.Drawing.Size(80, 80);
             this.field7.TabIndex = 9;
@@ -154,7 +154,7 @@
             // field8
             // 
             this.field8.BackColor = System.Drawing.Color.White;
-            this.field8.Location = new System.Drawing.Point(357, 300);
+            this.field8.Location = new System.Drawing.Point(184, 308);
             this.field8.Name = "field8";
             this.field8.Size = new System.Drawing.Size(80, 80);
             this.field8.TabIndex = 10;
@@ -163,7 +163,7 @@
             // 
             // PlayerTurn
             // 
-            this.PlayerTurn.Location = new System.Drawing.Point(217, 74);
+            this.PlayerTurn.Location = new System.Drawing.Point(44, 82);
             this.PlayerTurn.Name = "PlayerTurn";
             this.PlayerTurn.ReadOnly = true;
             this.PlayerTurn.Size = new System.Drawing.Size(190, 20);
@@ -172,7 +172,7 @@
             // 
             // ScoreTextBox
             // 
-            this.ScoreTextBox.Location = new System.Drawing.Point(271, 398);
+            this.ScoreTextBox.Location = new System.Drawing.Point(98, 406);
             this.ScoreTextBox.Name = "ScoreTextBox";
             this.ScoreTextBox.ReadOnly = true;
             this.ScoreTextBox.Size = new System.Drawing.Size(80, 20);
@@ -181,7 +181,7 @@
             // 
             // Player1Score
             // 
-            this.Player1Score.Location = new System.Drawing.Point(185, 424);
+            this.Player1Score.Location = new System.Drawing.Point(12, 432);
             this.Player1Score.Name = "Player1Score";
             this.Player1Score.ReadOnly = true;
             this.Player1Score.Size = new System.Drawing.Size(117, 20);
@@ -190,7 +190,7 @@
             // 
             // Player2Score
             // 
-            this.Player2Score.Location = new System.Drawing.Point(320, 424);
+            this.Player2Score.Location = new System.Drawing.Point(147, 432);
             this.Player2Score.Name = "Player2Score";
             this.Player2Score.ReadOnly = true;
             this.Player2Score.Size = new System.Drawing.Size(117, 20);
@@ -201,9 +201,9 @@
             // 
             this.StartNewGameButton.BackColor = System.Drawing.Color.White;
             this.StartNewGameButton.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.StartNewGameButton.Location = new System.Drawing.Point(515, 63);
+            this.StartNewGameButton.Location = new System.Drawing.Point(149, 46);
             this.StartNewGameButton.Name = "StartNewGameButton";
-            this.StartNewGameButton.Size = new System.Drawing.Size(96, 40);
+            this.StartNewGameButton.Size = new System.Drawing.Size(90, 30);
             this.StartNewGameButton.TabIndex = 15;
             this.StartNewGameButton.Text = "Start new game";
             this.StartNewGameButton.UseVisualStyleBackColor = false;
@@ -214,7 +214,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(623, 473);
+            this.ClientSize = new System.Drawing.Size(277, 473);
+            this.ControlBox = false;
             this.Controls.Add(this.StartNewGameButton);
             this.Controls.Add(this.Player2Score);
             this.Controls.Add(this.Player1Score);
@@ -232,8 +233,8 @@
             this.Controls.Add(this.ExitButton);
             this.Controls.Add(this.RestartButton);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.MaximumSize = new System.Drawing.Size(639, 512);
-            this.MinimumSize = new System.Drawing.Size(639, 512);
+            this.MaximumSize = new System.Drawing.Size(293, 512);
+            this.MinimumSize = new System.Drawing.Size(293, 512);
             this.Name = "Form";
             this.Text = "tic-tac-toe";
             this.ResumeLayout(false);

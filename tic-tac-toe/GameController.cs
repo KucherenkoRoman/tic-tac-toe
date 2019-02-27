@@ -175,7 +175,7 @@ namespace tic_tac_toe
         }
 
         public void ShowScore(TextBox Player1ScoreTextBox, TextBox Player2ScoreTextBox)
-        {
+        {                                               
             Player1ScoreTextBox.Text = $"Player 1 score: {this.Player1Score}";
             Player2ScoreTextBox.Text = $"Player 2 score: {this.Player2Score}";
         }
